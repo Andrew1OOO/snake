@@ -3,12 +3,11 @@ import random
 import pygame
 
 class Snake():
-    def __init__(self,color,surface, head_pos):
+    def __init__(self, color, surface):
         self.color = color
         self.surface = surface
         self.body = []
         self.track = []
-
 
 
     def paint(self, body, screen):
